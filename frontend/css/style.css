@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    height: 100%;
+    color: rgb(67, 67, 67);
+
+}
+
+body {
+    height: 100%;
+    color: rgb(67, 67, 67);
+    background-color: #e1e1e1;
+}
+
+p,
+.text {
+    font-size: 15px;
+    font-family: sans-serif;
+    color: #616161;
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #616161;
+
+}
+
+.contacts-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 25px;
+}
+
+.contact-preview {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 500px;
+    height: 200px;
+    gap: 30px;
+    padding-left: 25px;
+    box-shadow: 0 10px 40px 0 rgb(62 57 107 / 7%),
+        0 2px 9px 0 rgb(62 57 107 / 6%);
+    border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+
+
+.left-contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.left-contact-info img {
+    border-radius: 50%;
+}
+
+.left-contact-info small {
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.main-address {
+    padding: 11px 0px;
+}
+
+.contacts-info {
+    height: 150px;
+}
+
+.contacts-info p:nth-child(3) {
+    font-weight: bold;
+}
+
+.contacts-info p {
+    line-height: 22px;
+}
+
+.add-btn-container {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    justify-content: center;
+}
+
+.add-btn-container button {
+    width: 37px;
+    height: 37px;
+    cursor: pointer;
+}
+
+
+.actions {
+    display: flex;
+    width: 93px;
+    height: inherit;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 7px;
+}
+
+.actions button {
+    margin-inline: 6px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.actions i {
+    color: rgb(42, 42, 42);
+
+}
+
+
+
+/* form */
+
+.contact-form {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.close-modal {
+    float: left;
+}
+
+.fancy-form h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 6px;
+}
+
+:root {
+    color-scheme: light dark;
+}
+
+
