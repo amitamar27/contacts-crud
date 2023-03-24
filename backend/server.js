@@ -35,10 +35,7 @@ app.post('/api/contacts', (req, res) => {
 })
 
 app.put('/api/contacts/:id', (req, res) => {
-    const contact = {
-        id: Number(req.params.id),
-        ...req.body
-    }
+    const contact = {id: Number(req.params.id),...req.body}
     updateContact(contact);
     res.status(200).send();
 })

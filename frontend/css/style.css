@@ -19,14 +19,15 @@ body {
 
 p,
 .text {
-    font-size: 15px;
+    font-size: 14px;
     font-family: sans-serif;
     color: #616161;
 }
 
-h2 {
+h3 {
     font-family: sans-serif;
     color: #616161;
+    width: max-content;
 
 }
 
@@ -41,13 +42,16 @@ h2 {
     display: flex;
     align-items: center;
     background-color: #fff;
-    width: 500px;
-    height: 200px;
+    /* width: 500px; */
+    flex: 1 0 calc(33.33% - 20px);
+    /* height: 200px; */
     gap: 30px;
     padding-left: 25px;
     box-shadow: 0 10px 40px 0 rgb(62 57 107 / 7%),
         0 2px 9px 0 rgb(62 57 107 / 6%);
     border: 1px solid rgba(0, 0, 0, 0.06);
+    justify-content: space-between;
+    padding: 10px;
 }
 
 
@@ -62,6 +66,8 @@ h2 {
 
 .left-contact-info img {
     border-radius: 50%;
+    width: 100%;
+    height: auto;
 }
 
 .left-contact-info small {
@@ -73,9 +79,7 @@ h2 {
     padding: 11px 0px;
 }
 
-.contacts-info {
-    height: 150px;
-}
+
 
 .contacts-info p:nth-child(3) {
     font-weight: bold;
@@ -88,9 +92,9 @@ h2 {
 .add-btn-container {
     display: flex;
     align-items: center;
-    width: 500px;
-    height: 200px;
     justify-content: center;
+    flex: 1 0 calc(33.33% - 20px);
+
 }
 
 .add-btn-container button {
@@ -102,11 +106,10 @@ h2 {
 
 .actions {
     display: flex;
-    width: 93px;
     height: inherit;
     align-items: flex-end;
-    justify-content: flex-end;
     padding-bottom: 7px;
+    height: 100%;
 }
 
 .actions button {
@@ -167,4 +170,11 @@ h2 {
     color-scheme: light dark;
 }
 
+@media (max-width: 768px) {
+    .contact-preview {
+        flex: none;
+        width: 100%;
+        justify-content: space-between;
 
+    }
+}

@@ -77,7 +77,6 @@ async function onEditContact(contactId) {
 
 
 function onOpenModal() {
-    console.log('here');
     elModal.hidden = false
 }
 
@@ -92,11 +91,11 @@ function renderContacts(contacts) {
         return `
                     <article class="contact-preview">
                         <div class="left-contact-info">
-                            <img class="card-img-top" src="${contact.imageUrl}" alt="${contact.id}">
-                            <small>${contact.title}</small>
+                        <img class="card-img-top" src="${contact.imageUrl}" alt="${contact.id}">
+                        <small>${contact.title}</small>
                         </div>
                         <div class="contacts-info">
-                            <h2>${contact.name}</h2>
+                            <h3>${contact.name}</h3>
                             <div class="main-address">
                                 <span class ="icon"> <i class ="fas fa-map-marker-alt"></i></span>
                                 <span class="text"> ${contact.mainAddress} </span>

@@ -17,7 +17,6 @@ async function getContacts() {
 }
 
 function saveContact(contact) {
-    console.log(contact);
     const { name, title, city, phone} = contact
     const newContact = _createContact(title, name, city, phone)
     newContact.src = "assets/john-smith.jpg"

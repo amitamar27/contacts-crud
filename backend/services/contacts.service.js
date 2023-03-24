@@ -1,7 +1,7 @@
 const contacts = [{
         id: 1,
-        title: 'Graphics Designer',
-        name: 'Jhon Smith',
+        title: 'CEO',
+        name: 'Alex Jonathan',
         mainAddress: 'Riviera State 32/106',
         socialMedia: "Twitter, Inc",
         address: "San Farncisco, CA 94107",
@@ -11,22 +11,60 @@ const contacts = [{
     },
     {
         id: 2,
-        title: 'CEO',
-        name: 'Alex Johnatan',
+        title: 'Graphics designer',
+        name: 'Janet Carton',
         mainAddress: 'Riviera State 32/106',
         socialMedia: "Twitter, Inc",
         address: "San Farncisco, CA 94107",
         gpsCoordinates: "795 Folsom Ave, Suite 600",
         phone: "(123) 456-7890",
-        imageUrl: 'assets/alex jonathan.jpg'
-    }
+        imageUrl: 'assets/janeth carton.jpg'
+    },
+    {
+        id: 3,
+        title: 'Graphics designer',
+        name: 'Jhon Smith',
+        mainAddress: 'Riviera State 32/106',
+        socialMedia: "Twitter, Inc",
+        address: "San Farncisco, CA 94107",
+        gpsCoordinates: "795 Folsom Ave, Suite 600",
+        phone: "(123) 456-7890",
+        imageUrl: 'assets/john-smith.jpg'
+    },
+    {
+        id: 4,
+        title: 'Graphics designer',
+        name: 'Jhon Smith',
+        mainAddress: 'Riviera State 32/106',
+        socialMedia: "Twitter, Inc",
+        address: "San Farncisco, CA 94107",
+        gpsCoordinates: "795 Folsom Ave, Suite 600",
+        phone: "(123) 456-7890",
+        imageUrl: 'assets/michael zimber.jpg'
+    },
+    {
+        id: 5,
+        title: 'Marketing manager',
+        name: 'Monica Smith',
+        mainAddress: 'Riviera State 32/106',
+        socialMedia: "Twitter, Inc",
+        address: "San Farncisco, CA 94107",
+        gpsCoordinates: "795 Folsom Ave, Suite 600",
+        phone: "(123) 456-7890",
+        imageUrl: 'assets/monica smith.jpg'
+    },
+    {
+        id: 6,
+        title: 'Graphics designer',
+        name: 'Jhon Smith',
+        mainAddress: 'Riviera State 32/106',
+        socialMedia: "Twitter, Inc",
+        address: "San Farncisco, CA 94107",
+        gpsCoordinates: "795 Folsom Ave, Suite 600",
+        phone: "(123) 456-7890",
+        imageUrl: 'assets/sandra smith.jpg'
+    },
 ];
-
-// _createContact('CEO', 'Alex Johnatan', 'Riviera State 32/106', "Twitter, Inc", "San Farncisco, CA 94107", "795 Folsom Ave, Suite 600", "(123) 456-7890", 'assets/janeth carton.jpg'),
-// _createContact('Marketing Manager', 'Monica Smith', 'Riviera State 32/106', "Twitter, Inc", "San Farncisco, CA 94107", "795 Folsom Ave, Suite 600", "(123) 456-7890", 'assets/john-smith.jpg'),
-// _createContact('Sales Manager', 'Michael Zimber', 'Riviera State 32/106', "Twitter, Inc", "San Farncisco, CA 94107", "795 Folsom Ave, Suite 600", "(123) 456-7890", 'assets/michael zimber.jpg'),
-// _createContact('Graphics Designer', 'Sandra Smith', 'Riviera State 32/106', "Twitter, Inc", "San Farncisco, CA 94107", "795 Folsom Ave, Suite 600", "(123) 456-7890", 'assets/monica smith.jpg'),
-// _createContact('Graphics Designer', 'Janet Carton', 'Riviera State 32/106', "Twitter, Inc", "San Farncisco, CA 94107", "795 Folsom Ave, Suite 600", "(123) 456-7890", 'assets/sandra smith.jpg'),
 
 
 function getContacts() {
