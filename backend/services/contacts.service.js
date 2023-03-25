@@ -34,7 +34,7 @@ const contacts = [{
     {
         id: 4,
         title: 'Graphics designer',
-        name: 'Jhon Smith',
+        name: 'Michael Zimber',
         mainAddress: 'Riviera State 32/106',
         socialMedia: "Twitter, Inc",
         address: "San Farncisco, CA 94107",
@@ -56,7 +56,7 @@ const contacts = [{
     {
         id: 6,
         title: 'Graphics designer',
-        name: 'Jhon Smith',
+        name: 'Sandra Smith',
         mainAddress: 'Riviera State 32/106',
         socialMedia: "Twitter, Inc",
         address: "San Farncisco, CA 94107",
