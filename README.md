@@ -2,5 +2,5 @@
 
 TravelFactoryTest
 
-npm i
-node server.js
+#npm i
+#node server.js
