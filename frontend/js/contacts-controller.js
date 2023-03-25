@@ -8,7 +8,6 @@ async function onInit() {
 const elModal = document.querySelector('.contact-form')
 
 const form = document.querySelector('.contact-form');
-//form.addEventListener('submit', onSubmitForm);
 
 async function onSubmitForm(event) {
     event.preventDefault();
@@ -28,10 +27,17 @@ async function onSubmitForm(event) {
         title,
         mainAddress,
         phone,
-          gpsCoordinates,
-              address,
-              socialMedia,
-              imageUrl,
+        gpsCoordinates,
+        address,
+        socialMedia,
+        imageUrl,
+    }
+    
+    const phoneRegex = /^[\d()+-]*$/;
+    const phoneNumber = phone.trim();
+    if (!phoneRegex.test(phoneNumber)) {
+        alert("Invalid phone number! Please enter a valid phone number.");
+        return
     }
 
     if (id) {
@@ -42,7 +48,7 @@ async function onSubmitForm(event) {
             gpsCoordinates: '795 Folsom Ave, Suite 600',
             address: 'San Farncisco, CA 94107',
             socialMedia: 'Twitter, Inc',
-            imageUrl : './assets/alex jonathan.jpg',
+            imageUrl: './assets/alex jonathan.jpg',
         }
         await createContact(contact);
     }
