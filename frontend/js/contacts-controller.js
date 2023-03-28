@@ -9,6 +9,7 @@ const elModal = document.querySelector('.contact-form')
 
 const form = document.querySelector('.contact-form');
 
+
 async function onSubmitForm(event) {
     event.preventDefault();
     document.querySelector('.form-header').innerHTML = 'Add Contact';
@@ -82,12 +83,13 @@ async function onEditContact(contactId) {
 }
 
 
-function onOpenModal() {
+async function onOpenModal() {
     elModal.hidden = false
 }
 
 function onCloseModal(event) {
     event.preventDefault()
+    form.reset();
     elModal.hidden = true
 }
 
